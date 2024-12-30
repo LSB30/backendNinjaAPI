@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ninjas {
+public class Ninjas {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
