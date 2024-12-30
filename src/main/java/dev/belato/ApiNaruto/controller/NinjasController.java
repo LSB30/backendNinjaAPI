@@ -21,7 +21,6 @@ public class NinjasController {
     @PostMapping("/add")
     public ResponseEntity<Ninjas> addNinja(@RequestBody Ninjas ninja) {
         Ninjas newNinja = service.addNinjas(ninja);
-
         return new ResponseEntity<>(newNinja, HttpStatus.CREATED);
     }
 

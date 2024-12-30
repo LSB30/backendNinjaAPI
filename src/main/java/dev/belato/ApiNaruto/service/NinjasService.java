@@ -15,4 +15,5 @@ public class NinjasService {
     public Ninjas addNinjas(Ninjas ninja) {
         return repository.save(ninja);
 
+    }
 }
